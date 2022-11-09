@@ -1,19 +1,30 @@
-package org.dbtest;
+package org.dbtest.model;
 
 import jakarta.persistence.*;
+import org.hibernate.annotations.Generated;
 
 import java.util.Objects;
 
 @Entity
-@Table(name = "message_2")
-public class Message {
+@Table(name = "Book")
+public class Book {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", nullable = false)
     private Long id;
 
-    @Column(nullable = false)
-    private String text;
+    @Column(name = "name", nullable = false)
+    private String name;
+
+
+
+    public Book() {
+    }
+    public Book(String name){
+        this();
+        setName(name);
+    }
 
     public Long getId() {
         return id;
@@ -23,39 +34,33 @@ public class Message {
         this.id = id;
     }
 
-    public void setText(String text) {
-        this.text = text;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public String getText() {
-        return text;
+    public String getName() {
+        return name;
     }
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Message message = (Message) o;
-        return this.id.equals(message.id) && this.text.equals(message.text);
+        Book book = (Book) o;
+        return Objects.equals(id, book.id) && Objects.equals(name, book.name);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, text);
+        return Objects.hash(id, name);
     }
 
     @Override
     public String toString() {
-        return "Message{" +
+        return "Book{" +
                 "id=" + id +
-                ", text='" + text + '\'' +
+                ", name='" + name + '\'' +
                 '}';
     }
-    public Message(){
 
-    }
-    public Message(String text){
-        this();
-        this.setText(text);
-    }
 }

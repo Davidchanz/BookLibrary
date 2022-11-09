@@ -4,19 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cada6eb3-7720-4744-94c2-4dc1a4046145" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy-datasource.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/dbtest/PersistenceTest.java" afterDir="false" />
+    <list default="true" id="cada6eb3-7720-4744-94c2-4dc1a4046145" name="Changes" comment="init">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/model/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/model/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/model/BooksAuthorsInterseption.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/model/MessageService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/1.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/dbtest/hello-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dbtest/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dbtest/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/model/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/dbtest/PersistenceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/dbtest/PersistenceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +31,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="com.haulmont.jpb.JpaEntity" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -44,9 +49,9 @@
     </option>
     <option name="myId2Visible">
       <map>
-        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
-        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
-        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
   </component>
@@ -72,25 +77,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;/home/katsitovlis/Documents/Project/Java/DBTest/src/test/java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15211521&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_directory_selection": "/home/katsitovlis/Documents/Project/Java/DBTest/src/test/java",
+    "last_opened_file_path": "/home/katsitovlis/Documents/Project/Java/DBTest/src/main/resources",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15211521",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="TestNG.PersistenceTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main/resources/org.dbtest" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/org/dbtest" />
+      <recent name="$PROJECT_DIR$/src/main/resources/dbtest" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="dbtest" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.org.dbtest.Main">
+    <configuration name="org.dbtest.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.dbtest.Main" />
       <module name="DBTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.dbtest.*" />
+          <option name="PATTERN" value="org.dbtest.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,7 +126,7 @@
       <module name="DBTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.dbtest.*" />
+          <option name="PATTERN" value="org.dbtest.model.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,6 +141,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.dbtest.Main" />
         <item itemvalue="TestNG.PersistenceTest" />
       </list>
     </recent_temporary>
@@ -130,6 +155,14 @@
       <option name="presentableId" value="Default" />
       <updated>1667480552568</updated>
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1667568120138</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667568120138</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -142,6 +175,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <option name="LAST_COMMIT_MESSAGE" value="init" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
