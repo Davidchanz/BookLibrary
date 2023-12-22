@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane minHeight="425.0" minWidth="556.0" prefHeight="425.0" prefWidth="556.0" style="-fx-background-color: #242424;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.dbtest.controller.ShelfsController">
+    <children>
+      <AnchorPane prefHeight="50.0" prefWidth="445.0" style="-fx-background-color: #3A3A3A;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <AnchorPane prefHeight="46.0" prefWidth="68.0" style="-fx-background-color: #1000;" AnchorPane.bottomAnchor="454.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <JFXButton fx:id="editShelf" buttonType="FLAT" focusTraversable="false" mnemonicParsing="false" onMouseEntered="#onHoverOn" onMouseExited="#onHoverOff" prefHeight="35.0" prefWidth="35.0" ripplerFill="WHITE" style="-fx-background-color: rgb(60,60,60,1); -fx-text-fill: white;" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="3.0">
+               <graphic>
+                   <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                      <image>
+                          <Image url="@images/edit.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+         </children>
+      </AnchorPane>
+        <AnchorPane fx:id="controlPane" prefHeight="50.0" prefWidth="385.0" style="-fx-background-color: #1000;" AnchorPane.bottomAnchor="454.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="60.0" AnchorPane.topAnchor="0.0">
+            <children>
+            <Label fx:id="booksCount" layoutX="335.0" prefHeight="18.0" prefWidth="35.0" text="0" textFill="WHITE" AnchorPane.leftAnchor="335.0" AnchorPane.topAnchor="23.0" />
+            <JFXButton fx:id="drawerImage" buttonType="FLAT" focusTraversable="false" mnemonicParsing="false" onMouseEntered="#onHoverOn" onMouseExited="#onHoverOff" prefHeight="35.0" prefWidth="35.0" ripplerFill="WHITE" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="3.0">
+               <graphic>
+                        <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                            <image>
+                                <Image url="@images/menu.png" />
+                            </image>
+                        </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="addShelf" buttonType="FLAT" focusTraversable="false" mnemonicParsing="false" onAction="#addShelfOnAction" onMouseEntered="#onHoverOn" onMouseExited="#onHoverOff" prefHeight="35.0" prefWidth="35.0" ripplerFill="WHITE" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="3.0">
+               <graphic>
+                  <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                   <image>
+                       <Image url="@images/directory.png" />
+                   </image>
+                   </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="addShelfsTree" buttonType="FLAT" focusTraversable="false" mnemonicParsing="false" onAction="#addShelfsTreeOnAction" onMouseEntered="#onHoverOn" onMouseExited="#onHoverOff" prefHeight="35.0" prefWidth="35.0" ripplerFill="WHITE" AnchorPane.leftAnchor="115.0" AnchorPane.topAnchor="3.0">
+                <graphic>
+                    <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                            <Image url="@images/directoriesTree.png" />
+                        </image>
+                    </ImageView>
+                </graphic>
+            </JFXButton>
+            <JFXButton fx:id="coversUpdate" buttonType="FLAT" focusTraversable="false" layoutX="140.0" mnemonicParsing="false" onAction="#coversUpdateOnAction" onMouseEntered="#onHoverOn" onMouseExited="#onHoverOff" prefHeight="35.0" prefWidth="35.0" ripplerFill="WHITE" AnchorPane.leftAnchor="170.0" AnchorPane.topAnchor="3.0">
+               <graphic>
+                  <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                   <image>
+                       <Image url="@images/cover.png" />
+                   </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton fx:id="editShelfs" buttonType="FLAT" focusTraversable="false" layoutX="140.0" mnemonicParsing="false" onAction="#editShelfsOnAction" onMouseEntered="#onHoverOn" onMouseExited="#onHoverOff" prefHeight="35.0" prefWidth="35.0" ripplerFill="WHITE" AnchorPane.leftAnchor="225.0" AnchorPane.topAnchor="3.0">
+                <graphic>
+                    <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                        <image>
+                            <Image url="@images/shelfEdit.png" />
+                        </image>
+                    </ImageView>
+                </graphic>
+            </JFXButton>
+            </children>
+        </AnchorPane>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #242424;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="50.0">
+         <children>
+            <ScrollPane fx:id="booksPane" fitToHeight="true" fitToWidth="true" prefHeight="454.0" prefWidth="445.0" style="-fx-background: transparent; -fx-background-color: transparent;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                <userData>
+                    <fx:reference source="controller" />
+                </userData>
+            </ScrollPane>
+         </children>
+      </AnchorPane>
+        <AnchorPane fx:id="pane1" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #171717;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <AnchorPane fx:id="editPane" prefHeight="50.0" prefWidth="445.0" style="-fx-background-color: #3A3A3A;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <JFXButton buttonType="FLAT" focusTraversable="false" mnemonicParsing="false" onAction="#changeShelf" onMouseEntered="#onHoverOn" onMouseExited="#onHoverOff" prefHeight="35.0" prefWidth="35.0" ripplerFill="WHITE" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="3.0">
+               <graphic>
+                  <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                      <image>
+                          <Image url="@images/change.png" />
+                      </image>
+                  </ImageView>
+               </graphic></JFXButton>
+            <JFXButton buttonType="FLAT" focusTraversable="false" mnemonicParsing="false" onAction="#deleteBook" onMouseEntered="#onHoverOn" onMouseExited="#onHoverOff" prefHeight="35.0" prefWidth="35.0" ripplerFill="WHITE" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="3.0">
+               <graphic>
+                  <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                      <image>
+                          <Image url="@images/delete.png" />
+                      </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <JFXButton buttonType="FLAT" focusTraversable="false" mnemonicParsing="false" onAction="#addBook" onMouseEntered="#onHoverOn" onMouseExited="#onHoverOff" prefHeight="35.0" prefWidth="35.0" ripplerFill="WHITE" AnchorPane.bottomAnchor="2.0" AnchorPane.leftAnchor="115.0" AnchorPane.topAnchor="3.0">
+               <graphic>
+                  <ImageView fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                      <image>
+                          <Image url="@images/add.png" />
+                      </image>
+                  </ImageView>
+               </graphic></JFXButton>
+         </children>
+      </AnchorPane>
+        <AnchorPane fx:id="pane2" prefHeight="454.0" prefWidth="178.0" style="-fx-background-color: #242424;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="50.0">
+            <children>
+            <ScrollPane hbarPolicy="NEVER" layoutY="55.0" style="-fx-background-color: transparent; -fx-background: transparent;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="55.0">
+               <content>
+                      <VBox fx:id="shelfs" prefHeight="434.0" prefWidth="178.0" spacing="5.0" style="-fx-background-color: #242424;">
+                          <children>
+                              <JFXButton alignment="BASELINE_LEFT" buttonType="FLAT" onAction="#allBooksOnAction" onMouseEntered="#onHoverOn" onMouseExited="#onHoverOff" prefHeight="38.0" prefWidth="179.0" style="-fx-background-color: rgb(60,60,60,1); -fx-text-fill: white;" text="All">
+                                  <font>
+                                      <Font size="16.0" />
+                                  </font>
+                              </JFXButton>
+                          </children>
+                      </VBox>
+               </content>
+            </ScrollPane>
+            </children>
+        </AnchorPane>
+    </children>
+</AnchorPane>

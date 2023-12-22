@@ -15,10 +15,10 @@
 
         <property name="show_sql">true</property>
 
-        <mapping class="org.dbtest.model.Message"/>
         <mapping class="org.dbtest.model.Book"/>
         <mapping class="org.dbtest.model.Author"/>
         <mapping class="org.dbtest.model.BooksAuthorsInterseption"/>
+        <mapping class="org.dbtest.model.Shelf"/>
 
     </session-factory>
 </hibernate-configuration>

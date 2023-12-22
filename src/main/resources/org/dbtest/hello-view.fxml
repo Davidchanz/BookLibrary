@@ -1,29 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
 
-<?import javafx.scene.control.Button?>
-<?import javafx.scene.canvas.Canvas?>
-<?import javafx.scene.control.TableView?>
-<?import javafx.scene.control.TableColumn?>
-<?import javafx.scene.control.TextField?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="org.dbtest.controller.HomeController">
+<VBox fx:id="content" alignment="CENTER" prefHeight="616.0" prefWidth="654.0" spacing="20.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.dbtest.controller.HomeController">
     <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
 
-    <Label fx:id="welcomeText" text="Hellow World!"/>
+    <Label fx:id="welcomeText" text="Hellow World!" />
     <TableView fx:id="table" onKeyPressed="#onDeleteMessage">
         <columns>
-            <TableColumn fx:id="id" text="Id"/>
-            <TableColumn fx:id="text" text="Message" onEditCommit="#onUpdateMessage"/>
+            <TableColumn fx:id="id" text="Id" />
+            <TableColumn fx:id="name" onEditCommit="#onUpdateMessage" text="Message" />
+            <TableColumn fx:id="openB" />
         </columns>
     </TableView>
-    <TextField fx:id="inputText"/>
-    <Button fx:id="addMessage" onMouseClicked="#onAddMessage" text="Add Message"/>
-    <Button fx:id="updateTable" onMouseClicked="#onUpdateTable" text="Update"/>
-
+    <TextField fx:id="inputText" />
+    <Button mnemonicParsing="false" onAction="#ScanDirOnAction" text="ScanDir" />
+    <Button fx:id="addMessage" onMouseClicked="#onAddMessage" text="Add Message" />
+    <Button fx:id="updateTable" onMouseClicked="#onUpdateTable" text="Update" />
+   <Button mnemonicParsing="false" onAction="#BigPictureModeOnAction" text="BigPictureMode" />
 </VBox>

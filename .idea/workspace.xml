@@ -4,22 +4,201 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cada6eb3-7720-4744-94c2-4dc1a4046145" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/model/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/model/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/model/BooksAuthorsInterseption.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/model/MessageService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/1.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/dbtest/hello-view.fxml" afterDir="false" />
+    <list default="true" id="cada6eb3-7720-4744-94c2-4dc1a4046145" name="Changes" comment="Lost Commit">
+      <change afterPath="$PROJECT_DIR$/Thumbnails_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_100.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_101.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_102.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_103.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_104.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_105.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_106.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_107.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_108.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_109.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_110.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_111.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_112.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_113.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_114.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_115.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_116.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_117.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_118.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_119.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_120.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_121.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_122.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_123.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_124.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_125.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_127.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_128.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_129.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_133.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_134.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_135.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_140.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_141.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_142.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_144.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_145.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_146.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_31.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_34.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_35.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_36.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_37.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_38.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_39.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_40.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_41.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_43.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_44.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_45.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_46.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_47.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_48.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_49.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_51.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_52.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_53.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_54.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_55.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_56.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_57.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_58.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_59.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_60.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_61.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_62.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_63.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_64.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_65.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_66.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_67.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_68.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_69.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_70.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_71.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_72.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_73.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_74.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_75.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_76.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_77.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_78.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_79.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_80.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_81.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_82.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_83.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_84.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_85.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_86.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_87.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_88.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_89.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_90.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_91.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_92.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_93.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_94.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_95.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_96.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_97.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_98.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Thumbnails_99.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/BookView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/BookView2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/DraggableMaker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/ShelfButtonView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/ShelfEditer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/controller/AddShelfDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/controller/AllShelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/controller/BigPictureController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/controller/ChangeShelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/controller/EditShelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/controller/Shelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/controller/ShelfsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/controller/UncategorizedShelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/css/background.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/css/modena.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/model/Shelf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backrgound.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/dbtest/AddShelfDialog.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/dbtest/BigPictureView.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/dbtest/ChangeShelf.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/dbtest/Dashboard.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/dbtest/EditShelf.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/dbtest/Shelf.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/dbtest/cover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/dbtest/images/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/dbtest/images/change.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/dbtest/images/cover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/dbtest/images/default_cover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/dbtest/images/delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/dbtest/images/directoriesTree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/dbtest/images/directory.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/dbtest/images/edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/dbtest/images/menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/org/dbtest/images/shelfEdit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/test.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/test.pdf_page1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/dbtest/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dbtest/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/model/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dbtest/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/controller/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dbtest/model/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/model/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dbtest/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/model/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dbtest/model/BooksAuthorsInterseption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/model/BooksAuthorsInterseption.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dbtest/model/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/model/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/dbtest/model/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/service/MessageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/1.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/dbtest/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/dbtest/hello-view.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/dbtest/PersistenceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/dbtest/PersistenceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +211,7 @@
       <list>
         <option value="com.haulmont.jpb.JpaEntity" />
         <option value="package-info" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -54,6 +234,9 @@
         <entry key="com.haulmont.jpb.jpaStructure" value="false" />
       </map>
     </option>
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="mpcse5c1" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -79,6 +262,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.org.dbtest.Main.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
@@ -86,9 +271,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "DEV",
     "last_directory_selection": "/home/katsitovlis/Documents/Project/Java/DBTest/src/test/java",
-    "last_opened_file_path": "/home/katsitovlis/Documents/Project/Java/DBTest/src/main/resources",
-    "project.structure.last.edited": "Project",
+    "last_opened_file_path": "/home/katsitovlis/Documents/Project/JavaMaven/DBTest",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15211521",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager"
@@ -96,11 +282,14 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/org/dbtest/images" />
+      <recent name="$PROJECT_DIR$/src/main/java/org/dbtest/css" />
+      <recent name="$PROJECT_DIR$/src/main/resources/org/dbtest" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$/src/main/java" />
-      <recent name="$PROJECT_DIR$/src/main/resources/org.dbtest" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/dbtest" />
       <recent name="$PROJECT_DIR$/src/main/resources/org/dbtest" />
       <recent name="$PROJECT_DIR$/src/main/resources/dbtest" />
     </key>
@@ -108,13 +297,13 @@
       <recent name="dbtest" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.org.dbtest.Main">
-    <configuration name="org.dbtest.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.dbtest.Main" />
       <module name="DBTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.dbtest.model.*" />
+          <option name="PATTERN" value="org.dbtest.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,7 +315,7 @@
       <module name="DBTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.dbtest.model.*" />
+          <option name="PATTERN" value="org.dbtest.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,7 +330,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.org.dbtest.Main" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="TestNG.PersistenceTest" />
       </list>
     </recent_temporary>
@@ -162,23 +351,49 @@
       <option name="project" value="LOCAL" />
       <updated>1667568120138</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fix&#10;    Use get() for get updated entity&#10;    Change dafault hibernate.hbm2ddl.auto = update&#10;Add&#10;    class Book, Author, BooksAuthorsInterseption">
+      <created>1668000080873</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668000080873</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:jakarta.persistence:jakarta.persistence-api" />
+    <option featureType="dependencySupport" implementationName="java:org.openjfx:javafx-base" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/DEV" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="Fix&#10;    Use get() for get updated entity&#10;    Change dafault hibernate.hbm2ddl.auto = update&#10;Add&#10;    class Book, Author, BooksAuthorsInterseption" />
+    <MESSAGE value="Lost Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lost Commit" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

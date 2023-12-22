@@ -1,5 +1,6 @@
-package org.dbtest.model;
+package org.dbtest.service;
 
+import org.dbtest.model.Message;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;

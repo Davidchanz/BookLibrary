@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="217.0" prefWidth="265.0" style="-fx-background-color: #242424;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.dbtest.controller.AddShelfDialog">
+   <children>
+      <TextField fx:id="shelfName" layoutX="201.0" layoutY="96.0" prefHeight="26.0" prefWidth="254.0" AnchorPane.bottomAnchor="95.0" AnchorPane.leftAnchor="5.0" AnchorPane.topAnchor="96.0" />
+      <Label layoutX="112.0" layoutY="70.0" prefHeight="26.0" text="Name:" textFill="WHITE" AnchorPane.leftAnchor="112.0" AnchorPane.topAnchor="70.0" />
+      <Button layoutX="98.0" layoutY="128.0" mnemonicParsing="false" onAction="#chouseDirectoryOnAction" prefHeight="26.0" prefWidth="68.0" text="Dir" AnchorPane.leftAnchor="98.0" AnchorPane.topAnchor="128.0" />
+   </children>
+</AnchorPane>
