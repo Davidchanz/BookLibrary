@@ -142,64 +142,12 @@
       <change afterPath="$PROJECT_DIR$/Thumbnails_97.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Thumbnails_98.jpg" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Thumbnails_99.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/BookView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/BookView2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/DraggableMaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/ShelfButtonView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/ShelfEditer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/controller/AddShelfDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/controller/AllShelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/controller/BigPictureController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/controller/ChangeShelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/controller/EditShelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/controller/Shelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/controller/ShelfsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/controller/UncategorizedShelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/css/background.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/css/modena.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/model/Shelf.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/service/BookService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/backrgound.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/dbtest/AddShelfDialog.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/dbtest/BigPictureView.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/dbtest/ChangeShelf.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/dbtest/Dashboard.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/dbtest/EditShelf.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/dbtest/Shelf.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/dbtest/cover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/dbtest/images/add.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/dbtest/images/change.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/dbtest/images/cover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/dbtest/images/default_cover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/dbtest/images/delete.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/dbtest/images/directoriesTree.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/dbtest/images/directory.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/dbtest/images/edit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/dbtest/images/menu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/org/dbtest/images/shelfEdit.png" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/test.pdf" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/resources/test.pdf_page1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dbtest/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dbtest/controller/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/controller/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dbtest/model/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/model/Author.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dbtest/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/model/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dbtest/model/BooksAuthorsInterseption.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/model/BooksAuthorsInterseption.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dbtest/model/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/model/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/dbtest/model/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/dbtest/service/MessageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/1.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/1.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/org/dbtest/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/dbtest/hello-view.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/dbtest/PersistenceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/dbtest/PersistenceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -252,6 +200,9 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2H2Q9uU3O0o8m3MUC00g0hNhJNK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -263,8 +214,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Main.executor": "Run",
     "Application.org.dbtest.Main.executor": "Run",
     "Downloaded.Files.Path.Enabled": "false",
+    "Maven.DBTest [clean].executor": "Run",
+    "Maven.DBTest [compile].executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -272,6 +226,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "DEV",
+    "kotlin-language-version-configured": "true",
     "last_directory_selection": "/home/katsitovlis/Documents/Project/Java/DBTest/src/test/java",
     "last_opened_file_path": "/home/katsitovlis/Documents/Project/JavaMaven/DBTest",
     "project.structure.last.edited": "Modules",
@@ -358,7 +313,15 @@
       <option name="project" value="LOCAL" />
       <updated>1668000080873</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Lost Commit">
+      <option name="closed" value="true" />
+      <created>1703266074212</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703266074212</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="UnknownFeatures">
